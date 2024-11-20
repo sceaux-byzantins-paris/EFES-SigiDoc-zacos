@@ -48,7 +48,7 @@
             <script src="{$kiln:assets-path}/scripts/jquery-ui.min.js"/>
             <script src="{$kiln:assets-path}/relight/js/hammer.min.js"/>
             <script src="{$kiln:assets-path}/relight/js/relight-viewer.min.js"/>
-            <script src="{$kiln:assets-path}/scripts/attrchange.js"/>
+            <!-- <script src="{$kiln:assets-path}/scripts/attrchange.js"/> -->
           </kiln:block>
           <kiln:block name="head-extra"></kiln:block>
         </head>

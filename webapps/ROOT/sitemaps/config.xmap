@@ -107,7 +107,7 @@
              the URL as per RFC 2396; eg,
              http://username:password@domain.name/ -->
         <fedora-url/>
-        <rdf-base-uri>http://localhost/rdf/</rdf-base-uri>
+        <rdf-base-uri>http://localhost:9999/rdf/</rdf-base-uri>
         <!-- Comma-separated names of Solr facet fields that must get
              the label for each facet value from the RDF store rather
              than using the Solr data directly. -->
