@@ -207,8 +207,10 @@
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="iconography" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <!--
    <field name="legend_case" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+     multiValued="true" required="false" type="string" />
+   --><!-- added for SigiDoc -->
    <field name="personal_names" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="family_names" stored="true" indexed="true"
@@ -232,7 +234,7 @@
     <field name="translation" stored="true" indexed="false"
       multiValued="true" required="false" type="string"/> <!-- added for SigiDoc -->
    <field name="origdate" stored="true" indexed="false"
-     multiValued="false" required="false" type="string"/> <!-- added for SigiDoc -->
+     multiValued="true" required="false" type="string"/> <!-- added for SigiDoc -->
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->
    <field name="text" type="text_general" indexed="true"
