@@ -10,7 +10,7 @@
 
   <xsl:param name="index_type"/>
   <xsl:param name="subdirectory"/>
-  <xsl:variable name="prosopography" select="doc('../../content/xml/authority/prosopography.xml')"/>
+ <!-- <xsl:variable name="prosopography" select="doc('../../content/xml/authority/prosopography.xml')"/> -->
 
   <xsl:template match="/">
     <add>
@@ -27,6 +27,8 @@
           <field name="index_item_name">
             <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
             <!--<xsl:value-of select="string-join($prosopography//tei:person[@xml:id = $pers-id]//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la'],', ')" />-->
+            
+            <!--
             <xsl:variable name="forename"
               select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
             <xsl:variable name="surname"
@@ -43,9 +45,11 @@
                 />
               </xsl:otherwise>
             </xsl:choose>
+            -->
           </field>
           <field name="index_ext_reference">
             <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
+            <!--
             <xsl:variable name="bibl-string">
               <xsl:for-each
                 select="$prosopography//tei:person[@xml:id = $pers-id]//tei:bibl[tei:link]">
@@ -53,8 +57,10 @@
                   <xsl:value-of select="concat(./tei:citedRange, '_', ./tei:link/@target)"/>
                 </val>
               </xsl:for-each>
+              
             </xsl:variable>
             <xsl:value-of select="string-join($bibl-string/val, '|')"/>
+            -->
           </field>
           <xsl:apply-templates select="current-group()">
             <xsl:sort/>

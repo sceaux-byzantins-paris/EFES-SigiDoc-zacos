@@ -208,7 +208,7 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:rs[@type = 'legendsCases'][@ref][ancestor::tei:div/@type = 'textpart']"
+<!--  <xsl:template match="tei:rs[@type = 'legendsCases'][@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_legend_case">
     <field name="legend_case">
       <xsl:variable name="cases" select="doc('../../content/xml/authority/legendsCases.xml')"/>
@@ -216,6 +216,7 @@
       <xsl:value-of select="$cases//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"/>
     </field>
   </xsl:template>
+  -->
   <xsl:template match="tei:collection/tei:rs[@xml:lang = 'en']" mode="facet_collection">
     <field name="collection">
       <xsl:value-of select="."/>
@@ -335,7 +336,7 @@
     <xsl:call-template name="field_christ-related_terms"/>
     <xsl:call-template name="field_saints-related_terms"/>
     <xsl:call-template name="field_iconography"/>
-    <xsl:call-template name="field_legend_case"/>
+ <!--   <xsl:call-template name="field_legend_case"/> -->
     <xsl:call-template name="field_collection"/>
     <xsl:call-template name="field_holding_entity"/>
     <xsl:call-template name="field_personal_names"/>
@@ -409,10 +410,11 @@
     <xsl:apply-templates mode="facet_iconography"
       select="//tei:figDesc[@n = 'whole'][@xml:lang = 'en']"/>
   </xsl:template>
-  <xsl:template name="field_legend_case">
+<!-- <xsl:template name="field_legend_case">
     <xsl:apply-templates mode="facet_legend_case"
       select="//tei:rs[@type = 'legendsCases'][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
+  -->
   <xsl:template name="field_collection">
     <xsl:apply-templates mode="facet_collection" select="//tei:collection/tei:rs[@xml:lang = 'en']"/>
   </xsl:template>
