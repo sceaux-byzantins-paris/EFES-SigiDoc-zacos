@@ -33,8 +33,10 @@
     <!--Words and legend’s features-->
     <item label="Lemmata" match="local-index-display-html" params="epidoc lemma"
       i18n:key="menu-index-lemma"/>
+    <!--
     <item label="Legends' cases" match="local-index-display-html" params="epidoc legendsCases"
       i18n:key="menu-index-legendsCases"/>
+    -->
     <item label="Metrical legends" match="local-index-display-html" params="epidoc metrical"
       i18n:key="menu-index-metrical"/>
     <item label="Invocations" match="local-index-display-html" params="epidoc invocation"
