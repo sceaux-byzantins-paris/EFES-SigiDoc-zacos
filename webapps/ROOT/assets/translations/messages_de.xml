@@ -27,7 +27,7 @@
     <message key="overstrike-orientation">Ausrichtung der Überprägung (Uhr)</message>
     <message key="channel-orientation">Ausrichtung des Fadenkanals (Uhr)</message>
     <message key="execution">Ausführung</message>
-    <message key="countermark">?</message><!--TO BE DONE-->
+    <message key="countermark">Gegenstempel</message>
     <message key="epigraphy">Epigraphie</message>
     <message key="shape">Form</message>
     <message key="condition">Erhaltungszustand</message>
