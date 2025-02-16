@@ -137,13 +137,13 @@
     <message key="facet-military_offices">Fonctions militaires</message>
     <message key="facet-marian_terms">Termes se rapportant à la Vierge</message>
     <message key="facet-christ-related_terms">Termes se rapportant au Christ</message>
-    <message key="facet-saints-related_terms">Termes se rapportant aux Saints</message>
+    <message key="facet-saints-related_terms">Termes se rapportant aux saints</message>
     <message key="facet-metrical">Légendes métriques</message>
-    <message key="facet-monogram">Typ de monogramme</message>
+    <message key="facet-monogram">Type de monogramme</message>
     <message key="facet-legend_case">Cas des légendes</message>
     <message key="facet-iconography">Iconographie</message>
     <message key="facet-object_type">Type d'objet</message>
-    <message key="facet-gender">Gender</message>
+    <message key="facet-gender">Genre</message>
     <message key="grc">Grec</message>
 <message key="la">Latin</message>
 <message key="la-Grek">Latin en écriture grecque</message>
