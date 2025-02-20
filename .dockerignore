@@ -1,0 +1,8 @@
+/docs/
+/scripts/
+
+/.git*
+/*.bat
+/Dockerfile
+/LICENSE
+/README.*
