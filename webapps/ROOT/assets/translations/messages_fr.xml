@@ -318,4 +318,6 @@
 <message key="iconography-and-monogram">Iconographie et monogramme</message>
 <message key="undetermined">Indéterminé</message>
 
+<message key="hide-empty-fields">masquer les champs vides</message>
+<message key="show-empty-field">affiche les champs vides</message>
 </catalogue>

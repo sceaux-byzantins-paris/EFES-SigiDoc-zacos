@@ -316,5 +316,6 @@
 <message key="understrike">Understrike</message>
 <message key="iconography-and-monogram">Iconography and monogram</message>
 <message key="undetermined">Undetermined</message>
-
+<message key="hide-empty-fields">hide empty fields</message>
+    <message key="show-empty-fields">show empty fields</message>
 </catalogue>
