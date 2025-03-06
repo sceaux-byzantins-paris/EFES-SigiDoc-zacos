@@ -319,6 +319,7 @@
 <message key="understrike"/>
 <message key="iconography-and-monogram">Ikonographie und Monogramm</message>
 <message key="undetermined">Unbestimmt</message>
-<message key="hide-empty-fields">Leere felder ausblenden</message>
-<message key="show-empty-field">Leere felder anzeigen</message>
+<message key="hide-empty-fields">Leere Felder ausblenden</message>
+<message key="show-empty-fields">Leere Felder anzeigen</message>
+    <message key="export-as">Exportieren als</message>
 </catalogue>
