@@ -34,7 +34,24 @@
 
     <kiln:block name="page-heading">
       <xsl:value-of select="$title" />
+      <button id="myBtn" title="Go to top">Scroll to Top</button> 
+      <script>
+        $(document).ready(function(){
+          $(window).bind('scroll', function(){
+            if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+              $("#myBtn").css('display','block');
+            } else{ $("#myBtn").css('display','none');  }
+          });
+          
+          $("#myBtn").click(function(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          });
 
+       
+        })
+        
+      </script>
       <div class="export-seal">
         <i18n:text i18n:key="export-as"/>
         <a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}"> XML</a>
