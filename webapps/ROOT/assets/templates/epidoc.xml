@@ -58,17 +58,21 @@
         |
         <a href="javascript:window.print()">PDF</a>
       </div>
-      <a class="hide-switch"><i18n:text i18n:key="hide-empty-fields"/></a>
-      <a class="hide-switch hidden"><i18n:text i18n:key="show-empty-fields"/></a>
+      <a class="hide-switch hidden"><i18n:text i18n:key="hide-empty-fields"/></a>
+      <a class="hide-switch "><i18n:text i18n:key="show-empty-fields"/></a>
       <script>
         $(document).ready(function(){
-        $(".hide-switch").on("click", function(){
-        $(".hide-switch").toggleClass("hidden");
         var empty = $("dd:contains("+"―"+")")
         var sibling = $(empty).prev()
         $(empty).toggleClass("hidden");
         $(sibling).toggleClass("hidden");
-        });
+          $(".hide-switch").on("click", function(){
+            $(".hide-switch").toggleClass("hidden");
+            var empty = $("dd:contains("+"―"+")")
+            var sibling = $(empty).prev()
+            $(empty).toggleClass("hidden");
+            $(sibling).toggleClass("hidden");
+          });
         })
       </script>
     </kiln:block>
