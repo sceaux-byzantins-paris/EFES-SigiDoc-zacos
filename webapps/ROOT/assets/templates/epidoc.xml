@@ -26,6 +26,7 @@
     <kiln:block name="title">
       <kiln:super />
       <xsl:value-of select="$title" />
+
     </kiln:block>
 
     <kiln:block name="css">
@@ -33,7 +34,7 @@
     </kiln:block>
 
     <kiln:block name="page-heading">
-      <xsl:value-of select="$title" />
+      <xsl:copy-of select="$title"/>
       <button id="myBtn" title="Go to top">Scroll to Top</button> 
       <script>
         $(document).ready(function(){
