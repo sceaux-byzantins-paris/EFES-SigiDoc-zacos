@@ -87,6 +87,8 @@ footer {
 
 ul.index-instances {
     font-weight: normal;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .index-instance-file {
@@ -126,7 +128,7 @@ nav.top-bar ul.left * {
 }
 
 nav.top-bar {
-    margin: 0 0px 40px 0px;
+    margin: 0 0px 20px 0px;
 }
 
 .top-bar-section {
@@ -177,7 +179,7 @@ body {
     color: #333;
     background-color: white;
     display: block;
-    padding: 3px 1px 3px 3px;
+    /* padding: 3px 1px 3px 3px; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -193,6 +195,7 @@ body {
 }
 .active, .result-headline:hover {
   background-color: #ccc;
+  cursor: pointer;
 }
 
 .result-details {
@@ -214,6 +217,21 @@ body {
 .result-headline{
     display: flex;
     justify-content: space-between;
+    padding: 5px
+}
+
+.result-headline p {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.result-headline a {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: underline;
+    font-size: medium;
 }
 
 .collection-headline{
