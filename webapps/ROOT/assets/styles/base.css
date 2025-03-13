@@ -122,6 +122,12 @@ ul.index-instances {
     width: 24px;
 }
 
+#logo-lang {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    height: 24px;
+}
+
 #export {
     display: flex;
     flex-direction: row;
