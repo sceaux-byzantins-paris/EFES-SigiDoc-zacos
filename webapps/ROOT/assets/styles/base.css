@@ -104,19 +104,13 @@ ul.index-instances {
 }
 
 #site-title {
-    overflow: hidden;
-    background: url("../images/seal.jpg") center no-repeat;
-    position: inherit;
-    background-size: 1440px 300px;
-    font-size: 45px;
-    color: #562c2c;
-    height: 120px;
-    text-align: right;
-    margin-top: -1px;
-    margin-bottom: -1px;
-    padding-right: 10px;
-    padding-left: 10px;
+    background: url("../images/seal.png") center no-repeat;
+    height: 220px;
     width: 100%;
+}
+
+.landing-img {
+    margin-bottom: 20px;
 }
 
 nav.top-bar,
