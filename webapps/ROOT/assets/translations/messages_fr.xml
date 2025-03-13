@@ -326,4 +326,5 @@
     <message key="E">eunuque</message>
     <message key="F">féminin</message>
     <message key="U">indéterminé</message>
+    <message key="no-facet">no facet</message>
 </catalogue>
