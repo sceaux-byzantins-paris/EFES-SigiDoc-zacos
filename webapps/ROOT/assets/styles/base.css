@@ -103,6 +103,13 @@ ul.index-instances {
     font-weight: normal;
 }
 
+#indices-list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) ;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
 #site-title {
     background: url("../images/seal.png") center no-repeat;
     height: 220px;
