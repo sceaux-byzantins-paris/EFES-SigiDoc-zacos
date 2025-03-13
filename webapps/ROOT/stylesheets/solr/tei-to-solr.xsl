@@ -26,13 +26,13 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]" 
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person][text()]" 
     mode="facet_personal_names">
     <field name="personal_names">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person][text()]"
     mode="facet_family_names">
     <field name="family_names">
       <xsl:value-of select="."/>
