@@ -113,7 +113,7 @@
       <xsl:variable name="geography" select="doc('../../content/xml/authority/geography.xml')"/>
       <xsl:variable name="geo-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
