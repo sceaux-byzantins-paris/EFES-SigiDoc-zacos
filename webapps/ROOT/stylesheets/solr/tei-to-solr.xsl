@@ -26,13 +26,13 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]" 
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person][text()]" 
     mode="facet_personal_names">
     <field name="personal_names">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person][text()]"
     mode="facet_family_names">
     <field name="family_names">
       <xsl:value-of select="."/>
@@ -113,7 +113,7 @@
       <xsl:variable name="geography" select="doc('../../content/xml/authority/geography.xml')"/>
       <xsl:variable name="geo-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$geography//tei:place[@xml:id = $geo-id]//tei:placeName[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -134,7 +134,7 @@
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$offices//tei:list[@type = 'civil']//tei:item[@xml:lang = 'en']//tei:term[@xml:id = $ref-id]"
+        select="$offices//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -145,7 +145,7 @@
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$offices//tei:list[@type = 'ecclesiastical']//tei:item[@xml:lang = 'en']//tei:term[@xml:id = $ref-id]"
+        select="$offices//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -156,7 +156,7 @@
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$offices//tei:list[@type = 'military']//tei:item[@xml:lang = 'en']//tei:term[@xml:id = $ref-id]"
+        select="$offices//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
