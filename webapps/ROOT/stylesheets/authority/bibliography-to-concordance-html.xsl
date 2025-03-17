@@ -24,6 +24,7 @@
   </xsl:template>
   
   <xsl:template match="doc" mode="bibl-list">  
+    <xsl:copy-of select="."/>
     <xsl:variable name="bibl-id" select="str[@name='concordance_bibliography_ref']" />
     <li>
       <a href="{kiln:url-for-match('local-concordance-bibliography-item', ($language, $bibl-id), 0)}">
