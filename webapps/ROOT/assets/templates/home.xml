@@ -16,7 +16,7 @@
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <i18n:text i18n:key="home-title">SigiDoc 1.1<i>dev</i></i18n:text>
+            <i18n:text i18n:key="home-title"></i18n:text>
           </h1>
         </div>
       </div>
@@ -26,7 +26,10 @@
       <main>
         <div class="row">
           <div class="large-12 columns">
+          
             <div class="panel radius">
+              <img class="landing-img" src="/assets/images/seal.png"/>
+              <!-- <div class="landing-img" id="site-title"></div> -->
               <p>Seals are the only remnants of the written documents used for daily administration
                 and private correspondence from the 4th to the 15th C. in the Byzantine Empire –
                 i.e. the Christian eastern medieval empire centred upon Constantinople – whose

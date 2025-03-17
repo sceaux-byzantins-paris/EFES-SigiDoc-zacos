@@ -78,7 +78,7 @@
     <message key="menu-search">Αναζήτηση</message>
     <message key="menu-bibliography">Βιβλιογραφία</message>
     <message key="menu-admin">Διαχείριση</message>
-    <message key="menu-language">Γλώσσες</message>
+    <message key="menu-language"><img id="logo-lang" src="/assets/google-icons/translate.svg"/></message>
     <message key="en">Αγγλικά</message>
     <message key="fr">Γαλλικά</message>
      <message key="de">Γερμανικά</message>
@@ -316,5 +316,14 @@
 <message key="understrike">Πρώτη κοπή</message>
 <message key="iconography-and-monogram">Εικονογραφία και μονογράφημα</message>
 <message key="undetermined">Απροσδιόριστο</message>
+<message key="hide-empty-fields">απόκρυψη κενών πεδίων</message>
+<message key="show-empty-fields">εμφάνιση κενών πεδίων</message>
+<message key="export-as">Εξαγωγή ως</message>
+<message key="M">αρσενικό</message>
+<message key="E">ευνούχος</message>
+<message key="F">θηλυκό</message>
+<message key="U">απροσδιόριστο</message>
+<message key="no-facet">no facet</message>
+
 
 </catalogue>

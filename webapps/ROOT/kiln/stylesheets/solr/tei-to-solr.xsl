@@ -38,7 +38,7 @@
         <xsl:call-template name="field_mentioned_people" />
         <xsl:call-template name="field_mentioned_places" />
         <xsl:call-template name="field_origin_place" />
-        <xsl:call-template name="field_source_repository"/>
+        <!--<xsl:call-template name="field_source_repository"/>-->
         <xsl:call-template name="field_support_object_type" />
         <xsl:call-template name="field_support_material" />
         <xsl:call-template name="field_origin_date_evidence"/>
@@ -95,9 +95,18 @@
       </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="end-year">
-      <xsl:call-template name="get-year-from-date">
-        <xsl:with-param name="date" select="@notAfter" />
-      </xsl:call-template>
+      <xsl:choose>
+        <xsl:when test="@notAfter">
+          <xsl:call-template name="get-year-from-date">
+            <xsl:with-param name="date" select="@notAfter" />
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:call-template name="get-year-from-date">
+            <xsl:with-param name="date" select="@notBefore"/>
+          </xsl:call-template>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
     <xsl:for-each select="($start-year to $end-year)">
       <field name="origin_date">
@@ -156,11 +165,11 @@
     </doc>
   </xsl:template>
 
-  <xsl:template match="tei:repository[@ref]" mode="facet_source_repository">
+  <!--<xsl:template match="tei:repository[@ref]" mode="facet_source_repository">
     <field name="source_repository">
       <xsl:value-of select="@ref"/>
     </field>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template match="tei:material[@ref]" mode="facet_support_material">
     <field name="support_material">
@@ -260,9 +269,9 @@
     <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace[@ref]" />
   </xsl:template>
 
-  <xsl:template name="field_source_repository">
+  <!--<xsl:template name="field_source_repository">
     <xsl:apply-templates mode="facet_source_repository" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:repository[@ref]"/>
-  </xsl:template>
+  </xsl:template>-->
 
   <xsl:template name="field_support_material">
     <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:material[@ref]" />
