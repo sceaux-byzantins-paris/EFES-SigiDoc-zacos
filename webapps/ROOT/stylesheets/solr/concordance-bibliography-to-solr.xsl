@@ -9,7 +9,7 @@
   
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:body//tei:div//tei:bibl/tei:ptr" group-by="@target">
+      <xsl:for-each-group select="//tei:body//tei:div//tei:bibl/tei:ptr[@target != '']" group-by="@target">
         <xsl:variable name="target" select="@target" />
         <xsl:for-each-group select="current-group()" group-by="../tei:citedRange">
           <doc>
