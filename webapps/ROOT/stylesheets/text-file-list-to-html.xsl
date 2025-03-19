@@ -77,7 +77,7 @@
     <td>
       <xsl:choose>
         <xsl:when test="./str[contains(.,concat($language, '|'))]">
-          <xsl:value-of select="substring-after(./str[contains(.,concat($language, '|'))[1],'|')" />
+          <xsl:value-of select="substring-after(./str[contains(.,concat($language, '|'))][1],'|')" />
         </xsl:when>
         <xsl:otherwise><xsl:value-of select="substring-after(./str[contains(.,'en|')][1],'|')" /></xsl:otherwise>
       </xsl:choose></td>
