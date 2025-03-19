@@ -186,7 +186,7 @@
 <message key="corporate">Corporate</message>
 <message key="undetermined">Undetermined</message>
 <message key="seal">Seal</message>
-<message key="weight">Weight</message>
+<!-- <message key="weight">Weight</message> -->
 <message key="bread-stamp">Bread stamp</message>
 <message key="original-impression">Original impression</message>
 <message key="modern-impression">Modern impression</message>
@@ -266,7 +266,7 @@
 <message key="corporate">Corporate</message>
 <message key="undetermined">Undetermined</message>
 <message key="seal">Seal</message>
-<message key="weight">Weight</message>
+<!-- <message key="weight">Weight</message> -->
 <message key="bread-stamp">Bread stamp</message>
 <message key="original-impression">Original impression</message>
 <message key="modern-impression">Modern impression</message>
