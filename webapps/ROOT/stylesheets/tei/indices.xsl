@@ -113,9 +113,18 @@
       </xsl:variable>
       <xsl:for-each select="$bibls/val">
         <xsl:variable name="tokens">
+          <xsl:if test="tokenize(.,'_')[1] != ''" >
+          <name>
+            <xsl:choose>
+              <xsl:when test="position() = 1"><xsl:text>Pleiades: </xsl:text></xsl:when>
+              <xsl:when test="position() = 2"><xsl:text>Geonames: </xsl:text></xsl:when>
+              <xsl:when test="position() = 3"><xsl:text>TIB: </xsl:text></xsl:when>
+            </xsl:choose><xsl:value-of select="tokenize"/></name>
+          </xsl:if>
           <text><xsl:value-of select="tokenize(.,'_')[1]"/></text>
           <link><xsl:value-of select="tokenize(.,'_')[2]"/></link>
         </xsl:variable><p>
+          <span><xsl:value-of select="$tokens/name/text()"/></span>
           <a target="_blank">
             <xsl:attribute name="href">
               <xsl:value-of select="$tokens/link/text()"/>
