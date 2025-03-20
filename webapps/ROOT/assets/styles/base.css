@@ -255,9 +255,12 @@ body {
 }
 
 .result-details {
-  padding: 0 18px;
-  background-color: #efefef;
-  overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 0 18px;
+    background-color: #efefef;
+    overflow: hidden;
 }
 
 .hidden {
@@ -310,8 +313,11 @@ body {
 
 
 .thumbcontainer{
-    width: 100%;
-    display: flex
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
 }
 
 .img-text{
@@ -324,6 +330,7 @@ body {
 
 .thumbtext{
     font-size: small;
+    margin-left: auto;
 }
 
 #myBtn {
@@ -334,7 +341,7 @@ body {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #562c2c; /* Set a background color */
+  background-color: #637893; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -343,5 +350,5 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #45658b; /* Add a dark-grey background on hover */
 }
