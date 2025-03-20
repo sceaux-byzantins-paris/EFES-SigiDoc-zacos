@@ -110,6 +110,24 @@ ul.index-instances {
     grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
+.indices-block-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-auto-flow: column; gap: 10px;
+}
+
+.indices-block {
+    border: black 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.indices-block:hover {
+    background-color: #55555525;
+    cursor: pointer;
+}
+
 #site-title {
     background: url("../images/seal.png") center no-repeat;
     height: 220px;
