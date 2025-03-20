@@ -170,7 +170,7 @@
         </p>
         <div class="result-metadata">
           <p class="period">
-            <b>Century: </b>
+            <b>Date: </b>
             <xsl:value-of select="str[@name = 'origdate']"/>
           </p>
           <!-- <p>
