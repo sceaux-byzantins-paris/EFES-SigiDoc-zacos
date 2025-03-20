@@ -52,7 +52,7 @@
       </map:match>
       
       
-      <map:match id="local-images-jpeg" pattern="images/**.tiff">
+      <map:match id="local-images-jpeg" pattern="images/**.tif">
         <map:read mime-type="image/tiff" src="../content/images/{1}.tiff"
           type="image" />
       </map:match>
