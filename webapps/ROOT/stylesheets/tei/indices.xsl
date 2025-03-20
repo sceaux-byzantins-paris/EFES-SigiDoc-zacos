@@ -85,7 +85,27 @@
           <xsl:value-of select="$rdf-name" />
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="."/>
+          <xsl:choose>
+            <xsl:when test="contains(.,'-')">
+              <xsl:variable name="titles">
+                <xsl:for-each select="tokenize(.,'-')">
+                  <title><xsl:value-of select="."/></title>
+                </xsl:for-each>
+              </xsl:variable>
+              <xsl:variable name="title">
+                <xsl:choose>
+                  <xsl:when test="$titles/title[contains(.,concat($language,'|'))]">
+                    <xsl:value-of select="substring-after($titles/title[contains(.,concat($language,'|'))],'|')"/>
+                  </xsl:when>
+                  <xsl:otherwise><xsl:value-of select="substring-after($titles/title[contains(.,'en|')],'|')"/></xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:value-of select="$title"/>
+            </xsl:when>
+            <xsl:otherwise>  <xsl:value-of select="."/></xsl:otherwise>
+          </xsl:choose>
+          
+
         </xsl:otherwise>
       </xsl:choose>
     </th>
