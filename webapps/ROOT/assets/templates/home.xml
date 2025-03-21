@@ -29,32 +29,32 @@
 
           <div class="landing-page-container">
             <div class="landing-panel">
-            <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
+            <img class="panel-icon" src="/assets/google-icons/info_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> About </h3>
             <p>Learn more about this portal</p>
             </div>
             <div class="landing-panel">
-            <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
+            <img class="panel-icon" src="/assets/google-icons/database_search_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> Search </h3>
             <p>Search the collections</p>
             </div>
             <div class="landing-panel">
-            <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
+            <img class="panel-icon" src="/assets/google-icons/apps_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> Collections </h3>
             <p>See all collections</p>
             </div>
             <div class="landing-panel">
-            <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
+            <img class="panel-icon" src="/assets/google-icons/auto_stories_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> Guidelines </h3>
             <p>More informations on how to encode</p>
             </div>
             <div class="landing-panel">
-            <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
+            <img class="panel-icon" src="/assets/google-icons/groups_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> Team </h3>
             <p>Get to know our team</p>
             </div>
             <div class="landing-panel">
-            <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
+            <img class="panel-icon" src="/assets/google-icons/data_usage_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> 2048 </h3>
             <p>Objects in all collections</p>
             </div>

@@ -181,8 +181,8 @@ ul.index-instances {
     background-color: #55555525;
 }
 
-.landing-panel img {
-    width: 24px;
+.panel-icon {
+    width: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -191,6 +191,7 @@ ul.index-instances {
 .landing-panel p {
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.75;
 }
 
 nav.top-bar,
