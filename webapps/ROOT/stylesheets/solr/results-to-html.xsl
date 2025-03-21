@@ -151,7 +151,7 @@
     <xsl:variable name="short-filepath" select="substring-after(str[@name = 'file_path'], '/')"/>
     <div class="result">
       <div class="result-headline">
-        <p style="width: 85%">
+        <p class="result-title" style="width: 85%">
           <xsl:choose>
             <xsl:when test="arr[@name = 'document_title']/str[contains(.,concat($language,'|'))]">
               <xsl:value-of select="substring-after(arr[@name = 'document_title']/str[contains(.,concat($language,'|'))],'|')"/>
@@ -182,19 +182,22 @@
           > view seal</a>
       </div>
       <div class="result-details hidden">
-        <p>
+      <span>
+      <p>
           <xsl:value-of select="arr[@name = 'translation']/str[1]"/>
         </p>
         <div class="result-metadata">
           <p class="period">
-            <b>period: </b>
+            <b>Date: </b>
             <xsl:value-of select="str[@name = 'origdate']"/>
           </p>
-          <p>
+          <!-- <p>
             <b>mentions: </b>
             <xsl:value-of select="arr[@name = 'personal_names']"/>
-          </p>
+          </p> -->
         </div>
+      </span>
+        
         <div class="thumbcontainer">
           <div class="img-text">
             <img class="thumbnail" src="/assets/images/snapshot1.jpg"/>
