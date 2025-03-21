@@ -108,6 +108,8 @@
         </map:transform>
         <map:serialize />
       </map:match>
+      
+
 
       <!-- Search. -->
       <map:match id="local-search" pattern="*/search/">
@@ -127,6 +129,17 @@
         </map:transform>
         <map:transform type="i18n">
           <map:parameter name="locale" value="{1}" />
+        </map:transform>
+        <map:serialize />
+      </map:match>
+      
+      <!-- about. -->
+      <map:match id="local-about" pattern="*/about.html">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/menu/main.xml?url={1}/about.html" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/about.xsl">
+          <map:parameter name="language" value="{1}" />
         </map:transform>
         <map:serialize />
       </map:match>
