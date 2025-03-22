@@ -19,10 +19,16 @@
             <i18n:text i18n:key="home-title"/>
           </h1>
           <h2>(Bibliothèque nationale de France)</h2>
-          <h4><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: Jean-Claude Cheynet,
-            Vivien Prigent, Alessio Sopracasa</h4>
-          <h4><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: Alessio
-            Sopracasa</h4>
+          <h4><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: <a
+              href="https://www.orient-mediterranee.com/member/cheynet-jean/" target="_blank"
+              >Jean-Claude Cheynet</a>, <a
+              href="https://www.orient-mediterranee.com/member/prigent-vivien/" target="_blank"
+              >Vivien Prigent</a>, <a
+              href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+              >Alessio Sopracasa</a></h4>
+          <h4><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: <a
+              href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+              >Alessio Sopracasa</a></h4>
         </div>
       </div>
     </kiln:block>
