@@ -18,6 +18,9 @@
           <h1>
             <i18n:text i18n:key="home-title"/>
           </h1>
+          <h2>(Bibliothèque nationale de France)</h2>
+          <h3><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: Jean-Claude Cheynet, Vivien Prigent, Alessio Sopracasa</h3>
+          <h3><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: Alessio Sopracasa</h3>
         </div>
       </div>
     </kiln:block>
