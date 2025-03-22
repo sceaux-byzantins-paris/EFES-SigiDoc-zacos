@@ -19,8 +19,10 @@
             <i18n:text i18n:key="home-title"/>
           </h1>
           <h2>(Bibliothèque nationale de France)</h2>
-          <h3><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: Jean-Claude Cheynet, Vivien Prigent, Alessio Sopracasa</h3>
-          <h3><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: Alessio Sopracasa</h3>
+          <h4><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: Jean-Claude Cheynet,
+            Vivien Prigent, Alessio Sopracasa</h4>
+          <h4><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: Alessio
+            Sopracasa</h4>
         </div>
       </div>
     </kiln:block>
@@ -65,8 +67,16 @@
             <div class="panel radius">
 
               <!-- <div class="landing-img" id="site-title"></div> -->
-              <h3>La donation Zacos à la Bibliotheque nationale de France</h3>
-              <p>En 1998, Madame Janet Zacos a fait don au Cabinet des Médailles de la Bibliothéque
+              <p>Le corpus sigillographique en cours de publication ici représente la première
+                entreprise d'édition systématique des sceaux de la Collection George Zacos de la
+                Bibliothèque nationale de France. Les travaux ont débuté dans le
+                cadre du projet franco-allemand <a
+                  href="https://www.orient-mediterranee.com/program/reveler-le-potentiel-meconnu-des-sceaux-nouvelles-methodologies-pour-la-recherche-historique-dans-le-domaine-des-etudes-byzantines/"
+                  target="_blank">ANR-DFG <i>DigiByzSeal</i></a> et vont se poursuivre au-delà de la
+                date de fin du projet. L'ensemble choisi pour commencer cette publication est celui
+                des sceaux avec une légende comportant un nom transmissible.</p>
+              <h4>La donation Zacos à la Bibliothèque nationale de France</h4>
+              <p>En 1998, Madame Janet Zacos a fait don au Cabinet des Médailles de la Bibliothèque
                 nationale de France (BnF) de la collection de sceaux rassemblée par son époux,
                 Monsieur George Zacos, comprenant 6300 plombs, en trés bon état de conservation. La
                 collection ainsi entrée à la Bibliothéque nationale de France hisse d'un seul coup
@@ -78,7 +88,7 @@
                 photothéque de son époux, qui comprend non seulement les photographies des sceaux
                 donnés, mais aussi une part notable des nombreux clichés des plombs conservés à
                 Dumbarton Oaks et dans diverses collections publiques et privées.</p>
-              <h3>La carrière de George Zacos</h3>
+              <h4>La carrière de George Zacos</h4>
               <p>George Zacos naquit en 1911 à Istanbul. Issu d'une famille de la petite bourgeoisie
                 grecque, il fit ses études secondaires au collège américain d'Istanbul, le Robert
                 College. Alors qu'il atteignait quatorze ans, son pére demanda à un ami de la
@@ -108,7 +118,7 @@
                 1983, empêcha George Zacos de poursuivre la publication du corpus sous la forme
                 qu'il avait projeté, mais un second volume, posthume, fut édité sous I'impulsion de
                 Madame Janet Zacos, avec l'aide de J. Nesbitt.</p>
-              <h3>La collection Zacos</h3>
+              <h4>La collection Zacos</h4>
               <p>George Zacos constitua une première collection de plus de dix mille plombs, dont la
                 plus grande partie provenait d'Istanbul: une partie fut achetée aux jeunes gens, les
                 araïdjis, qui allaient, après une forte tempête, les recueillir le long de la plage
@@ -127,10 +137,13 @@
                 et les vendit. George Zacos dut ainsi racheter, une seconde fois, certains de ses
                 propres sceaux. II put aussi acquérir des collections déja constituées, comme celles
                 de Diamanti et de Papadopoulos.</p>
-              <p>Texte extrait de: Jean-Claude Cheynet, <i>Sceaux de la collection Zacos (Bibliothèque
-                nationale de France) se rapportant aux provinces orientales de l'Empire byzantin :
-                exposition organisée par le Département des monnaies, médailles et antiques,
-                Bibliothèque nationale de France (16 juillet - 14 octobre 2001</i>, Paris 2001, p. 5-7.</p>
+              <p>Texte extrait de: Jean-Claude Cheynet, <i>Sceaux de la collection Zacos
+                  (Bibliothèque nationale de France) se rapportant aux provinces orientales de
+                  l'Empire byzantin: exposition organisée par le Département des monnaies, médailles
+                  et antiques, Bibliothèque nationale de France (16 juillet - 14 octobre 2001</i>,
+                Paris 2001, p. 5-7; voir aussi la présentation de George et Janet Zacos sur le <a
+                  href="https://comitehistoire.bnf.fr/dictionnaire-fonds/georges-janet-zacos"
+                  target="_blank">site de la BnF</a>.</p>
             </div>
             <div class="row">
               <div class="large-12 columns text-center">
