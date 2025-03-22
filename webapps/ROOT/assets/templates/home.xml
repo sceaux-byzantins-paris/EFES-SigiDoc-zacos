@@ -18,6 +18,17 @@
           <h1>
             <i18n:text i18n:key="home-title"></i18n:text>
           </h1>
+          <h2>(Institut Catholique de Paris, Institut Français d'Études Byzantines)</h2>
+          <h4><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: <a
+            href="https://www.orient-mediterranee.com/member/cheynet-jean/" target="_blank"
+            >Jean-Claude Cheynet</a>, <a
+              href="https://www.orient-mediterranee.com/member/prigent-vivien/" target="_blank"
+              >Vivien Prigent</a>, <a
+                href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+                >Alessio Sopracasa</a></h4>
+          <h4><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: <a
+            href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+            >Alessio Sopracasa</a></h4>
         </div>
       </div>
     </kiln:block>
@@ -62,6 +73,13 @@
             <div class="panel radius">
               
               <!-- <div class="landing-img" id="site-title"></div> -->
+              <p>Le corpus sigillographique en cours de publication ici représente la première
+                entreprise d'édition systématique des sceaux de la Collection de l'IFEB. Les travaux ont débuté dans le cadre du projet
+                franco-allemand <a
+                  href="https://www.orient-mediterranee.com/program/reveler-le-potentiel-meconnu-des-sceaux-nouvelles-methodologies-pour-la-recherche-historique-dans-le-domaine-des-etudes-byzantines/"
+                  target="_blank">ANR-DFG <i>DigiByzSeal</i></a> et vont se poursuivre au-delà de la
+                date de fin du projet. L'ensemble choisi pour commencer cette publication est celui
+                des sceaux avec une légende comportant la mention d'un toponyme.</p>
               <p>Seals are the only remnants of the written documents used for daily administration
                 and private correspondence from the 4th to the 15th C. in the Byzantine Empire –
                 i.e. the Christian eastern medieval empire centred upon Constantinople – whose
