@@ -165,7 +165,7 @@ ul.index-instances {
     grid-template-columns:  repeat(3, minmax(0, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
     gap: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .landing-panel {
