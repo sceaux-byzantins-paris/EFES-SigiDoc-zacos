@@ -18,11 +18,30 @@
             <kiln:super />
             <xsl:apply-templates mode="head" select="/aggregation/index_metadata" />
         </kiln:block>
+
+        <kiln:block name="page-header">
+            <div class="row">
+                <div class="large-12 columns text-center">
+                <h1>
+                    Sigillographic collections on the CSÆB Portal
+                </h1>
+                </div>
+            </div>
+        </kiln:block>
         
         <kiln:block name="content">
             <div class="row">
-                
-                EMPTY COLLECTIONS PAGE
+                <h6>The following are the collections of Byzantine seals currently available on this Portal, or planned to be available in the upcoming months.</h6>
+                <ul style="font-size: 16px; margin-left: 50px;">
+                    <li>Robert Feind collection (private collection, Cologne)</li><!--LINK ADDEN-->
+                    <li><a href="https://ifeb.sigidoc.huma-num.fr/fr/">IFEB collection</a> (Institut Catholique de Paris, Institut Français d’Études Byzantines)</li>
+                    <li><a href="https://seyrig.sigidoc.huma-num.fr/fr/">Henri Seyrig collection</a> (Bibliothèque nationale de France, Département des Monnaies, Médailles et Antiques)</li>
+                    <li><a href="https://tatis.sigidoc.huma-num.fr/fr/">Yavuz Tatış collection</a> (private collection, İzmir)</li>
+                    <li><a href="https://zacos.sigidoc.huma-num.fr/fr/">George Zacos collection</a> (Bibliothèque nationale de France, Département des Monnaies, Médailles et Antiques)</li>
+                </ul>
+                <h6>Collections planned to be added in 2025:</h6>
+                <p>George Zacos collection (Musée d’Art et d’Histoire, Geneva)</p>
+                <p>Digital Sigillographic Corpus of Bulgaria (DigiSigiCorp)</p>
             </div>
         </kiln:block>
     </kiln:child>
