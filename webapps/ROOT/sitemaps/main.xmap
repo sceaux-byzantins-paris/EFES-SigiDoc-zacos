@@ -98,6 +98,7 @@
 
       <map:match id="local-language-home-page" pattern="*/">
         <map:aggregate element="aggregation" label="content">
+          <map:part src="cocoon://internal/search/tei_metadata.xml?q=epidoc" />
           <map:part src="cocoon://_internal/menu/{1}/main.xml" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/home.xsl">
