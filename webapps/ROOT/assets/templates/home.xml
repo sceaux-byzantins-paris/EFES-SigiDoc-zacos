@@ -16,19 +16,19 @@
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <i18n:text i18n:key="home-title"></i18n:text>
+            <i18n:text i18n:key="home-title"/>
           </h1>
           <h2>(Institut Catholique de Paris, Institut Français d'Études Byzantines)</h2>
           <h4><i18n:text i18n:key="home-editor">Édition des sceaux</i18n:text>: <a
-            href="https://www.orient-mediterranee.com/member/cheynet-jean/" target="_blank"
-            >Jean-Claude Cheynet</a>, <a
+              href="https://www.orient-mediterranee.com/member/cheynet-jean/" target="_blank"
+              >Jean-Claude Cheynet</a>, <a
               href="https://www.orient-mediterranee.com/member/prigent-vivien/" target="_blank"
               >Vivien Prigent</a>, <a
-                href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
-                >Alessio Sopracasa</a></h4>
+              href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+              >Alessio Sopracasa</a></h4>
           <h4><i18n:text i18n:key="home-digi-editor">Édition numérique</i18n:text>: <a
-            href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
-            >Alessio Sopracasa</a></h4>
+              href="https://www.orient-mediterranee.com/member/sopracasa-alessio/" target="_blank"
+              >Alessio Sopracasa</a></h4>
         </div>
       </div>
     </kiln:block>
@@ -37,8 +37,8 @@
       <main>
         <div class="row">
           <div class="large-12 columns">
-          <img class="landing-img" src="/assets/images/seal.png"/>
-          <!-- <div class="landing-page-container">
+            <img class="landing-img" src="/assets/images/seal.png"/>
+            <!-- <div class="landing-page-container">
             <div class="landing-panel">
             <img src="/assets/google-icons/download_24dp_562C2C_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> About </h3>
@@ -71,40 +71,85 @@
             </div>
           </div> -->
             <div class="panel radius">
-              
+
               <!-- <div class="landing-img" id="site-title"></div> -->
               <p>Le corpus sigillographique en cours de publication ici représente la première
-                entreprise d'édition systématique des sceaux de la Collection de l'IFEB. Les travaux ont débuté dans le cadre du projet
-                franco-allemand <a
+                entreprise d'édition systématique des sceaux de la Collection de l'IFEB. Les travaux
+                ont débuté dans le cadre du projet franco-allemand <a
                   href="https://www.orient-mediterranee.com/program/reveler-le-potentiel-meconnu-des-sceaux-nouvelles-methodologies-pour-la-recherche-historique-dans-le-domaine-des-etudes-byzantines/"
                   target="_blank">ANR-DFG <i>DigiByzSeal</i></a> et vont se poursuivre au-delà de la
                 date de fin du projet. L'ensemble choisi pour commencer cette publication est celui
                 des sceaux avec une légende comportant la mention d'un toponyme.</p>
               <h4>Présentation</h4>
-              <p>Seals are the only remnants of the written documents used for daily administration
-                and private correspondence from the 4th to the 15th C. in the Byzantine Empire –
-                i.e. the Christian eastern medieval empire centred upon Constantinople – whose
-                public and private archives are nearly entirely lost. As such seals do not
-                supplement archival material but have to substitute it, which explains the unique
-                importance of sigillography for Byzantine studies.</p>
-              <p>SigiDoc provides XML-based and TEI-compliant encoding standards for the description
-                and edition of Byzantine seals: as such, it aims to establish a set of rules and
-                guidelines to publish Byzantine seals in digital form. SigiDoc is intended for both
-                the creation of digital-born editions as well as digital conversion of paper
-                publications and has been conceived to provide the users with a common basis for
-                developing their projects and to give them the freedom to customise their
-                approach.</p>
-              <p>SigiDoc is largely based on the ongoing experience of EpiDoc and aims at becoming
-                the standard tool for the spreading of digital sigillography while delivering a
-                standard for the digital encoding of Byzantine seals. </p>
+              <p>Les informations sur comment la collection aujourd’hui conservée à l’<a
+                  href="https://www.icp.fr/recherche/instituts-de-recherche/institut-francais-detudes-byzantines-ifeb"
+                  target="_blank">Institut Français d’Études Byzantines</a> a été constituée et sur
+                les circonstances de l’acquisition des sceaux sont fort peu nombreuses et viennent,
+                la plupart du temps, non pas des publications notamment de <a
+                  href="https://www.wikidata.org/wiki/Q15709784" target="_blank">Vitalien
+                  Laurent</a>, mais
+                des documents et lettres conservés dans les archives de l’Institut.</p>
+              <p>Les tous premiers sceaux entrés à l’Institut byzantin des <a href="https://www.wikidata.org/wiki/Q745449" target="_blank">Assomptionnistes</a> de
+                <a href="https://www.geonames.org/744906/kadikoey.html" target="_blank">Kadiköy</a> furent acquis par <a href="https://www.wikidata.org/wiki/Q18912096"
+                  target="_blank">L. Rabois-Bousquet</a>, alias S. Pétridès, tandis que <a
+                  href="https://www.wikidata.org/wiki/Q3262880" target="_blank">L. Petit</a> réunit
+                198 sceaux latins et grecs, entrés ensuite au Médailler Vatican et qui se sont
+                révélés des copies de la collection Likhačev.</p>
+              <p>C’est dans la cadre du recensement pour son célèbre <i>Corpus</i> que Vitalien
+                  Laurent entame la constitution de la collection de sceaux aujourd’hui
+                conservée à l’IFEB. Le <a href="https://www.college-de-france.fr/fr" target="_blank"
+                  >Collège de France</a> a contribué, même si de manière limitée, à ces
+                acquisitions: les fonds alloués à Laurent pour son recensement sont en partie
+                utilisés à cette fin, seule façon, selon lui, de pouvoir avoir accès aux plombs.
+                Ainsi, entre 1935 et 1938 Laurent fit l’acquisition de pas moins de 609 sceaux, en
+                jouant sur le fait que les antiquaires établissaient leur prix plus sur la base de
+                l’état de conservation et l’apparence que sur la valeur scientifique de ces objets.
+                Ces bulles représentent 40% des environ 1500 collectionnées par Laurent pour
+                l’Institut, qui en possédait 17 à l’arrivée du sigillographe (qui les publia en
+                1928). L’essentiel de la collection semble avoir été constitué avant le départ
+                d’Istanbul, mais les achats se sont poursuivis jusqu’au décès de Laurent.</p>
+              <p>Dans son entreprise de collecte, Laurent avait des adversaires, nommés par lui
+                collectivement "yankees", des riches collectionneurs américains qui avaient un
+                potentiel financier bien supérieur à celui de l’Institut, et notamment <a
+                  href="https://www.doaks.org/resources/online-exhibits/before-byzantium/who-was-thomas-whittemore"
+                  target="_blank">T. Whittemore</a>. Toutefois, Laurent put bénéficier de l’aide de
+                deux membres de l’ambassade des États-Unis en Turquie. D’abord <a
+                  href="http://www.shawfoundation.org/about.php" target="_blank">G. Howland
+                Shaw</a>, Assistant Secretary of State (et collectionneur de <a
+                  href="https://www.doaks.org/@@search?Subject%3Alist=Shaw%20Catalogue"
+                  target="_blank">sceaux byzantins aujourd’hui à Dumbarton Oaks</a>), et puis l’une
+                de ses subordonnées à l’ambassade, <a
+                  href="https://en.wikipedia.org/wiki/Betty_Carp" target="_blank">Bertha “Betty”
+                  Carp</a>.</p>
+              <p>Mais déjà au moment de commencer la collecte pour l’Institut, Laurent fit le
+                constat que les temps auxquels les sceaux se vendaient pour pas cher étaient
+                désormais révolus. L’effort financier des Assomptionnistes montre bien l’importance
+                accordée à cette source: les données contenues dans la correspondance de Laurent
+                montrent bien l’exiguïté des moyens financiers à sa disposition, ce qui a permis
+                essentiellement l’achat de bulles de rebut: néanmoins, les fonds destinés par
+                l’Institut à l’achat des sceaux ne furent pas du tout négligeables, compte-tenu du
+                budget serré de cette institution, et le travail consacré à cette collection a sans
+                doute représenté un élément important de ses activités.</p>
+              <p>Présentation extraite de: Vivien Prigent, <i>De l’apport des «petits monuments»:
+                  faire de l’or avec du plomb</i>, dans Marie-Hélène Blanchet et Ionuţ-Alexandru
+                Tudorie (éd.), <i>L'apport des Assomptionnistes français aux études byzantines: une
+                  approche critique. Actes du Colloque de Bucarest, 25-27 septembre 2014</i>, Paris
+                2017 (Archives de l’Orient Chrétien 21), p. 385-452, ici p. 427-443.</p>
+              <p>Pour une histoire de l'Institut byzantin des Assomptionnistes, voir <a
+                  href="https://doi.org/10.3406/rebyz.1995.1900" target="_blank">Albert Failler,
+                    <i>Le centenaire de l'Institut byzantin des Assomptionnistes</i></a>, Revue des
+                Études Byzantines, 53 (1995), p. 5-40.</p>
             </div>
             <div class="row">
               <div class="large-12 columns text-center">
                 <div class="panel radius">
-                  <p>The full bibliographical description of this publication: <strong>[to be changed by each project]</strong>,
-                    available at: <strong>[to be changed by each project]</strong>.</p> <p>This should be abbreviated to <strong>[to be changed by each project]</strong>.</p>
+                  <p>The full bibliographical description of this publication: <strong>[to be
+                      changed by each project]</strong>, available at: <strong>[to be changed by
+                      each project]</strong>.</p>
+                  <p>This should be abbreviated to <strong>[to be changed by each
+                    project]</strong>.</p>
                   <p>GitHub repository available <a href="https://github.com/SigiDoc"
-                    target="_blank">https://github.com/SigiDoc</a>.</p>
+                      target="_blank">https://github.com/SigiDoc</a>.</p>
                   <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                       <img alt="Creative Commons License" style="border-width:0"
                         src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
