@@ -18,10 +18,53 @@
             <kiln:super />
             <xsl:apply-templates mode="head" select="/aggregation/index_metadata" />
         </kiln:block>
+
+        <kiln:block name="page-header">
+            <div class="row">
+                <div class="large-12 columns text-center">
+                <h1>
+                    About
+                </h1>
+                </div>
+            </div>
+        </kiln:block>
         
         <kiln:block name="content">
             <div class="row">
-                EMPTY PAGE
+                <p>
+                The CSAeB is a federated search portal for Byzantine seals, providing access to all collections encoded using the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a> through a single unified interface.
+                 Rather than merging everything into one large corpus, the portal allows individual collections to remain autonomous while being interoperable through the shared encoding standard.
+                To support this approach, the DigiByzSeal team developed an infrastructure based on GitHub repositories:
+                </p>
+                <ul>
+                    <li>A central SigiDoc repository hosts core materials such as schema, templates, and stylesheets. These files are centrally maintained and are not intended to be modified by individual projects.</li>
+                    <li>Forkable components, including selected code files and authority lists (standardised names and references), are made available for local adaptation. Projects can propose improvements via pull requests to the central repository.</li>
+                    <li>Individual teams (e.g., those in Cologne and Paris) have established their own GitHub organisations, where they manage their EFES-SigiDoc instances and collections of seal editions (in XML format).</li>
+                </ul>
+                <p>
+                Each seal collection is published as XML files, which are integrated into EFES—a web-based viewer for TEI-encoded documents.
+                 The federated portal tracks public Git repositories using webhooks. When a new seal is added, the webhook initiates a process that:
+                </p>
+                <ul>
+                    <li>Pulls the new XML file from the repository</li>
+                    <li>Indexes the file on the EFES-based portal</li>
+                    <li>Makes it available in the search interface</li>
+                </ul>
+                <p>
+                This system supports decentralised editing while enabling centralised discovery and search capabilities.
+                Importantly, the federated portal does not require projects to use EFES specifically. Even raw XML files hosted publicly on Git platforms can be harvested and indexed.
+                The broader aim is to build a collaborative digital infrastructure for sigillography, empowering museums, researchers, and institutions around the world to contribute independently while remaining interconnected.
+                </p>
+                <hr></hr>
+                <h6>Further readings:</h6>
+                <p>
+                Neuefeind, Claes, Bigalke, Jan, Catalano, Maria Teresa, Drach, Sviatoslav, Efthymoglou, Sofia, Evening, Pia, Filosa, Martina, Malatras, Christos, Schaeben, Marcel,
+                 and Sode, Claudia. "Signed, sealed, delivered – digital approaches to Byzantine sigillography." it - Information Technology, 2024. <a href="https://doi.org/10.1515/itit-2023-0030">https://doi.org/10.1515/itit-2023-0030</a>
+                </p>
+                <p>
+                Sopracasa, Alessio, Bigalke, Jan, Buchs, Numa, and Meziridou, Sima. 2024. “Creating a Sigillographic Search Engine for Byzantium: Preliminary Results.” 
+                In Digital Approaches to Medieval Sigillography, ed. Martina Filosa, Claes Neuefeind, and Claudia Sode, special collection. Digital Medievalist 17(1): 1–32. <a href="https://doi.org/10.16995/dm.15235">https://doi.org/10.16995/dm.15235</a>
+                </p>
             </div>
         </kiln:block>
     </kiln:child>
