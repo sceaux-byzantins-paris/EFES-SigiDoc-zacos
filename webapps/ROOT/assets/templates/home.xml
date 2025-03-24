@@ -55,7 +55,7 @@
             </div>
             <div class="landing-panel">
             <img class="panel-icon" src="/assets/google-icons/data_usage_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
-            <h3> 2048 </h3>
+              <h3> <xsl:value-of select="count(//doc)"></xsl:value-of></h3>
             <p>Objects in all collections</p>
             </div>
           </div> 
