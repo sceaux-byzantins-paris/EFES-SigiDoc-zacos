@@ -12,6 +12,7 @@
         <kiln:block name="title">
             <kiln:super />
             <xsl:apply-templates mode="title" select="/aggregation/index_metadata" />
+            <xsl:text>Team</xsl:text>
         </kiln:block>
         
         <kiln:block name="page-heading">
