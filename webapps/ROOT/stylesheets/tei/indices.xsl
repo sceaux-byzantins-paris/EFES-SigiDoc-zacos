@@ -100,9 +100,15 @@
                   <xsl:otherwise><xsl:value-of select="substring-after($titles/title[contains(.,'en|')][1],'|')"/></xsl:otherwise>
                 </xsl:choose>
               </xsl:variable>
+              <xsl:if test="normalize-space($title) != ''">
               <xsl:value-of select="$title"/>
+              </xsl:if>
             </xsl:when>
-            <xsl:otherwise>  <xsl:value-of select="."/></xsl:otherwise>
+            <xsl:otherwise>  
+              <xsl:if test="normalize-space(.) != ''">
+              <xsl:value-of select="."/>
+              </xsl:if>
+            </xsl:otherwise>
           </xsl:choose>
           
 
@@ -145,6 +151,7 @@
           <link><xsl:value-of select="tokenize(.,'_')[2]"/></link>
         </xsl:variable>
         <ul style="margin-bottom: 5px;">
+          <xsl:if test="$tokens/name/text() != ''">
           <li>
           <span><xsl:value-of select="$tokens/name/text()"/></span>
           <a target="_blank">
@@ -154,6 +161,7 @@
             <xsl:value-of select="$tokens/text/text()"/>
           </a>
           </li>
+          </xsl:if>
         </ul>
       </xsl:for-each>
     </td>
