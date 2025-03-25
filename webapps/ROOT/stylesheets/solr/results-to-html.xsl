@@ -138,7 +138,9 @@
             <xsl:value-of select="current-grouping-key()"/>
           </div>
 
-          <xsl:apply-templates select="current-group()[self::doc]" mode="detailed-results"/>
+          <xsl:apply-templates select="current-group()[self::doc]" mode="detailed-results">
+            <xsl:with-param name="collection" select="current-grouping-key()"/>
+          </xsl:apply-templates>
         </xsl:for-each-group>
 
         <xsl:call-template name="add-results-pagination"/>
@@ -147,7 +149,7 @@
   </xsl:template>
 
   <xsl:template match="doc" mode="detailed-results">
-
+    <xsl:param name="collection"/>
     <xsl:variable name="short-filepath" select="substring-after(str[@name = 'file_path'], '/')"/>
     <div class="result">
       <div class="result-headline">
