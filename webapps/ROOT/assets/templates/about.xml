@@ -33,7 +33,7 @@
             <div class="row">
                 <!--ABOUT INTRO-->
                 <p>
-                The CSÆB is a federated search Portal for Byzantine seals, providing access to all collections encoded using the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a> through a single unified interface.
+                The CSÆB is a federated search Portal for Byzantine seals, providing access to all collections encoded using the <a target="_blank" href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a> through a single unified interface.
                  Rather than merging everything into one large corpus, the Portal allows individual collections to remain autonomous while being interoperable through the shared encoding standard.
                 To support this approach, the <i>DigiByzSeal</i> team developed an infrastructure based on GitHub repositories:
                 </p>
@@ -43,7 +43,7 @@
                     <li>Individual teams (e.g., those in Cologne and Paris) have established their own GitHub organisations, where they manage their EFES-SigiDoc instances and collections of seal editions (in XML format).</li>
                 </ul>
                 <p>
-                Each seal collection is published as XML files, which are integrated into <a href="https://github.com/SigiDoc/EFES-SigiDoc">EFES</a>—a platform for individual SigiDoc XML-based projects.
+                Each seal collection is published as XML files, which are integrated into <a target="_blank" href="https://github.com/SigiDoc/EFES-SigiDoc">EFES</a>—a platform for individual SigiDoc XML-based projects.
                  The federated Portal tracks public Git repositories using webhooks. When a new seal is added, the webhook initiates a process that:
                 </p>
                 <ul style="font-size: 16px; margin-left: 50px;">
@@ -81,12 +81,12 @@
                 <!--HOT TO PARTICIPATE-->
                 <h4>How can you participate?</h4>
                 <p>
-                The minimum requirement is to be keen to prepare your sigillographic editions in accordance with the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a>: the adoption of the latter will create the common underlying foundation necessary
+                The minimum requirement is to be keen to prepare your sigillographic editions in accordance with the <a target="_blank" href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a>: the adoption of the latter will create the common underlying foundation necessary
                  for sigillographic data to be simultaneously queried by the Portal. To do that, you have several options:
                 </p>
                 <ul style="font-size: 16px; margin-left: 50px;">
-                    <li>Host your own collection using an instance such as <a href="https://github.com/SigiDoc/EFES-SigiDoc">EFES</a>, which can be accessed in parallel via the Portal.</li>
-                    <li>Manage your collection's metadata in a <a href="https://github.com/sceaux-byzantins-paris/zacos-collection">Git repository</a>, which the Portal will retrieve and index.</li>
+                    <li>Host your own collection using an instance such as <a target="_blank" href="https://github.com/SigiDoc/EFES-SigiDoc">EFES</a>, which can be accessed in parallel via the Portal.</li>
+                    <li>Manage your collection's metadata in a <a target="_blank" href="https://github.com/sceaux-byzantins-paris/zacos-collection">Git repository</a>, which the Portal will retrieve and index.</li>
                     <li>Use a web-based input form to describe individual seals according to the SigiDoc data model, making them searchable through the Portal. </li> <!--LINK TO EDITOR?-->
                 </ul>
                 <hr></hr> <!--TRENNSTRICH-->
@@ -97,31 +97,31 @@
                 <hr></hr> <!--TRENNSTRICH-->
                 <!--IMPRESSUM-->
                 <h4 id="Impressum">Legal Notice</h4>
-                <p>In general, the <a href="https://portal.uni-koeln.de/impressum">legal notice of the University of Cologne</a> applies.</p>
+                <p>In general, the <a target="_blank" href="https://portal.uni-koeln.de/impressum">legal notice of the University of Cologne</a> applies.</p>
                 <hr></hr> <!--TRENNSTRICH-->
                 <h4>Data privacy</h4>
-                <p>The <a href="https://portal.uni-koeln.de/datenschutz">data privacy of the Universityof Cologne </a>applies.</p>
+                <p>The <a target="_blank" href="https://portal.uni-koeln.de/datenschutz">data privacy of the Universityof Cologne </a>applies.</p>
                 <h6>Usage statistics</h6>
                 <p>
                 This website uses Matomo (formerly Piwik), a software for the statistical analysis of visitor access. Matomo uses cookies to enable your use of the website to be analyzed.
                 The information generated by the cookie about your use of our website is stored on the server of the University of Cologne in Germany.
-                Your IP address is anonymized immediately after processing and before it is stored. On our website, we offer you the option of <a href="#">opting out</a> of the analysis process.
+                Your IP address is anonymized immediately after processing and before it is stored. On our website, we offer you the option of <a target="_blank" href="#">opting out</a> of the analysis process.
                 In this way, another cookie is set on your system, which signals our system not to save your data. If you delete the corresponding cookie from your own system in the meantime, the opt-out cookie must be set again.
-                Alternatively, we recommend that you activate the <a href="https://de.wikipedia.org/wiki/Do_Not_Track_(Software)">Do Not Track settings</a> in your browser.
+                Alternatively, we recommend that you activate the <a target="_blank" href="https://de.wikipedia.org/wiki/Do_Not_Track_(Software)">Do Not Track settings</a> in your browser.
                 </p>
                 <p>
-                You can find more information on the privacy settings of the Matomo software at the following link: <a href="https://matomo.org/docs/privacy/">https://matomo.org/docs/privacy/</a>.
+                You can find more information on the privacy settings of the Matomo software at the following link: <a target="_blank" href="https://matomo.org/docs/privacy/">https://matomo.org/docs/privacy/</a>.
                 </p>
                 <hr></hr> <!--TRENNSTRICH-->
                 <!--FURTHER READING-->
                 <h6>Further readings:</h6>
                 <p>
                 Neuefeind, Claes, Bigalke, Jan, Catalano, Maria Teresa, Drach, Sviatoslav, Efthymoglou, Sofia, Evening, Pia, Filosa, Martina, Malatras, Christos, Schaeben, Marcel,
-                 and Sode, Claudia. "Signed, sealed, delivered – digital approaches to Byzantine sigillography." it - Information Technology, 2024. <a href="https://doi.org/10.1515/itit-2023-0030">https://doi.org/10.1515/itit-2023-0030</a>
+                 and Sode, Claudia. "Signed, sealed, delivered – digital approaches to Byzantine sigillography." it - Information Technology, 2024. <a target="_blank" href="https://doi.org/10.1515/itit-2023-0030">https://doi.org/10.1515/itit-2023-0030</a>
                 </p>
                 <p>
                 Sopracasa, Alessio, Bigalke, Jan, Buchs, Numa, and Meziridou, Sima. 2024. “Creating a Sigillographic Search Engine for Byzantium: Preliminary Results.” 
-                In Digital Approaches to Medieval Sigillography, ed. Martina Filosa, Claes Neuefeind, and Claudia Sode, special collection. Digital Medievalist 17(1): 1–32. <a href="https://doi.org/10.16995/dm.15235">https://doi.org/10.16995/dm.15235</a>
+                In Digital Approaches to Medieval Sigillography, ed. Martina Filosa, Claes Neuefeind, and Claudia Sode, special collection. Digital Medievalist 17(1): 1–32. <a target="_blank" href="https://doi.org/10.16995/dm.15235">https://doi.org/10.16995/dm.15235</a>
                 </p>
             </div>
         </kiln:block>

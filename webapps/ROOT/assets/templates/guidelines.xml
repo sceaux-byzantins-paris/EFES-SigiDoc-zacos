@@ -33,7 +33,7 @@
             <div class="row">
                 <p>This page provides guidance on how to search for seal data using the various filters available in the CSÆB Portal.</p>
                 <p>The search interface is designed to make data accessible, searchable, and sustainable.
-                 It allows users to combine different search criteria and access data from multiple online seal collections, all encoded according to the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a>.
+                 It allows users to combine different search criteria and access data from multiple online seal collections, all encoded according to the <a target="_blank" href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a>.
                 By applying and combining filters, users can, for instance, find specific seals, identify parallel specimens, or generate sigillographic statistics.</p>
                 <p>Feel free to explore the possibilities offered by the metaportal!</p>
                 <hr></hr> <!--TRENNLINIE-->
