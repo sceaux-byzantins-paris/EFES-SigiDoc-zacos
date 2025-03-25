@@ -139,7 +139,7 @@
           </div>
 
           <xsl:apply-templates select="current-group()[self::doc]" mode="detailed-results">
-            <xsl:with-param name="collection" select="current-grouping-key()"></xsl:with-param>
+            <xsl:with-param name="collection" select="current-grouping-key()"/>
           </xsl:apply-templates>
         </xsl:for-each-group>
 

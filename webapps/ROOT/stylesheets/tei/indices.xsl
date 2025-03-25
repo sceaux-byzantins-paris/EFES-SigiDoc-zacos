@@ -168,10 +168,26 @@
   </xsl:template>
   
   <xsl:template match="arr[@name='index_instance_location']">
+    <xsl:variable name="data" select="."/>
+    <xsl:variable name="collections">
+      <xsl:for-each select="./str"> 
+        <name>
+          <xsl:value-of select="tokenize(.,'#')[6]"/>
+        </name>
+      </xsl:for-each>
+    </xsl:variable>
     <td>
-      <ul class="index-instances inline-list">
-        <xsl:apply-templates select="str" />
-      </ul>
+        <xsl:for-each select="distinct-values($collections/name)">        
+          <xsl:variable name="colname" select="."/>
+          <xsl:value-of select="concat($colname, ': ')"/>
+          <ul class="index-instances inline-list">  
+          <xsl:for-each select="distinct-values($data/str[contains(.,$colname)])">
+            <xsl:variable name="content" select="."/>
+            <xsl:apply-templates select="$data/str[./text() = $content][1]"/>
+          </xsl:for-each>
+          </ul>
+        </xsl:for-each>
+
     </td>
   </xsl:template>
   
@@ -202,6 +218,7 @@
   </xsl:template>
 
   <xsl:template match="arr[@name='index_instance_location']/str">
+    
     <!-- This template must be defined in the calling XSLT (eg,
          indices-epidoc.xsl) since the format of the location data is
          not universal. -->
