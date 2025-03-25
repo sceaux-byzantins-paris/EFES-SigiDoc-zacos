@@ -33,9 +33,9 @@
             <div class="row">
                 <!--ABOUT INTRO-->
                 <p>
-                The CSÆB is a federated search portal for Byzantine seals, providing access to all collections encoded using the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a> through a single unified interface.
-                 Rather than merging everything into one large corpus, the portal allows individual collections to remain autonomous while being interoperable through the shared encoding standard.
-                To support this approach, the DigiByzSeal team developed an infrastructure based on GitHub repositories:
+                The CSÆB is a federated search Portal for Byzantine seals, providing access to all collections encoded using the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a> through a single unified interface.
+                 Rather than merging everything into one large corpus, the Portal allows individual collections to remain autonomous while being interoperable through the shared encoding standard.
+                To support this approach, the <i>DigiByzSeal</i> team developed an infrastructure based on GitHub repositories:
                 </p>
                 <ul style="font-size: 16px; margin-left: 50px;">
                     <li>A central SigiDoc repository hosts core materials such as schema, templates, and stylesheets. These files are centrally maintained and are not intended to be modified by individual projects.</li>
@@ -43,17 +43,17 @@
                     <li>Individual teams (e.g., those in Cologne and Paris) have established their own GitHub organisations, where they manage their EFES-SigiDoc instances and collections of seal editions (in XML format).</li>
                 </ul>
                 <p>
-                Each seal collection is published as XML files, which are integrated into EFES—a web-based viewer for TEI-encoded documents.
-                 The federated portal tracks public Git repositories using webhooks. When a new seal is added, the webhook initiates a process that:
+                Each seal collection is published as XML files, which are integrated into <a href="https://github.com/SigiDoc/EFES-SigiDoc">EFES</a>—a platform for individual SigiDoc XML-based projects.
+                 The federated Portal tracks public Git repositories using webhooks. When a new seal is added, the webhook initiates a process that:
                 </p>
                 <ul style="font-size: 16px; margin-left: 50px;">
                     <li>Pulls the new XML file from the repository</li>
-                    <li>Indexes the file on the EFES-based portal</li>
+                    <li>Indexes the file on the EFES-based Portal</li>
                     <li>Makes it available in the search interface</li>
                 </ul>
                 <p>
                 This system supports decentralised editing while enabling centralised discovery and search capabilities.
-                Importantly, the federated portal does not require projects to use EFES specifically. Even raw XML files hosted publicly on Git platforms can be harvested and indexed.
+                Importantly, the federated Portal does not require projects to use EFES specifically. Even raw XML files hosted publicly on Git platforms can be harvested and indexed.
                 The broader aim is to build a collaborative digital infrastructure for sigillography, empowering museums, researchers, and institutions around the world to contribute independently while remaining interconnected.
                 </p>
                 <hr></hr> <!--TRENNSTRICH-->
@@ -92,9 +92,8 @@
                 <hr></hr> <!--TRENNSTRICH-->
                 <!--WHAT THE PORTAL IS NOT-->
                 <h4>What the Portal is NOT</h4>
-                <p>Authorship remains fully attributed to the original author(s). The content is shared under a CC-BY license.</p>
-                <p>We recognize the importance of scholarly cataloguing in academic careers. The Portal does not claim authorship of individual records.
-                 Instead, it ensures that contributors retain full ownership and visibility over their data and that content responsibility lies with the data providers.</p>
+                <p>The Portal does <i>not</i> replace independent presentations or institutional publications. Rather, it enhances the visibility of your collections through an additional platform.</p>
+                <p>The Portal is <i>not</i> a single curated collection. It is a community-driven initiative. Please note that datasets contributed by different partners may vary in depth and descriptive detail.</p>
                 <hr></hr> <!--TRENNSTRICH-->
                 <!--IMPRESSUM-->
                 <h4 id="Impressum">Legal Notice</h4>

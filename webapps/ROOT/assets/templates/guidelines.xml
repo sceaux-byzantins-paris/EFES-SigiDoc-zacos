@@ -31,7 +31,7 @@
         
         <kiln:block name="content">
             <div class="row">
-                <p>This page provides guidance on how to search for seal data using the various filters available in the CSÆB portal.</p>
+                <p>This page provides guidance on how to search for seal data using the various filters available in the CSÆB Portal.</p>
                 <p>The search interface is designed to make data accessible, searchable, and sustainable.
                  It allows users to combine different search criteria and access data from multiple online seal collections, all encoded according to the <a href="https://github.com/SigiDoc/Guidelines/wiki">SigiDoc data model</a>.
                 By applying and combining filters, users can, for instance, find specific seals, identify parallel specimens, or generate sigillographic statistics.</p>
@@ -47,13 +47,13 @@
                 <p>Clicking the "Reset search" button removes all applied filters.</p>
                 <!--FREE-TEXT SEARCH-->
                 <h6>a. Free-text Search</h6>
-                <p>In the upper-left corner, the "Search" box allows users to search for words, phrases, or characters—regardless of their position—within all XML files queried by the portal.</p>
+                <p>In the upper-left corner, the "Search" box allows users to search for words, phrases, or characters—regardless of their position—within all XML files queried by the Portal.</p>
                 <p>Note that not all data encoded in the XML files are displayed on the webpage.
                 Therefore, some results may not appear to correspond to the text entered.
                 Additionally, because this search queries also plain text sections written without controlled vocabulary,
                 and since terms depend on editorial choices, consistency in word usage and results cannot be guaranteed.</p>
                 <p>Free-text search is best for basic queries or very specific terms not included in the filters. For more consistent results, using search filters is recommended.</p>
-                <p>Currently, free-text search supports only Latin characters, but the portal provides virtual keyboards for entering Greek characters.</p>
+                <p>Currently, free-text search supports only Latin characters, but the Portal provides virtual keyboards for entering Greek characters.</p>
                 <!--TIMELINE FILTER-->
                 <h6>b. Timeline Filter</h6>
                 <p>Below the free-text search box is a timeline with a movable slider that allows filtering by specific periods. The default time span is 400 to 1500, but this range can be adjusted.</p>
@@ -64,14 +64,14 @@
                 <h6>c. Search Filters</h6>
                 <p>Filters on the left side of the interface are the most reliable way to perform a scientific search.</p>
                 <p>Clicking a filter allows users to select a specific feature and narrow results by combining filters.
-                The portal supports atomic searches, where data types are separated and listed in distinct filters.
+                The Portal supports atomic searches, where data types are separated and listed in distinct filters.
                 For instance, the office "strategos of Cappadocia" must be searched using the filters "Military offices – strategos" and "Place names – Cappadocia".</p>
                 <p>As filters are applied, other filters automatically adjust to display only valid combinations, excluding irrelevant data.</p>
-                <p>Note: Filters reflect only the written evidence on the seals. The portal is not a prosopographical database.
+                <p>Note: Filters reflect only the written evidence on the seals. The Portal is not a prosopographical database.
                 Information inferred from historical context, iconography, or interpretation is not included.
                 For example, if a historical figure is known as a "patrikios" but the title is not inscribed on their seal,
-                the portal will not return results under that title.</p>
-                <p>The portal supports the following filters:</p>
+                the Portal will not return results under that title.</p>
+                <p>The Portal supports the following filters:</p>
                 <ol type="i" style="font-size: 16px; margin-left: 50px;">
                     <li>Object Type</li>
                     <li>Material</li>
@@ -98,7 +98,7 @@
                 <!--Personal and Family Names-->
                 <h6>c.iv–v. Personal and Family Names</h6>
                 <p>The "Personal names" and "Family names" filters support onomastic queries, such as finding all seals belonging to someone named "Theodosios" or members of the "Komnenos" family.</p>
-                <p>Since the portal is not a prosopographical resource, it cannot search for specific individuals.
+                <p>Since the Portal is not a prosopographical resource, it cannot search for specific individuals.
                 To search for someone like "Nikephoros Komnenos", combine the filters "Personal names – Nikephoros" and "Family names – Komnenos."
                 Determining whether matching seals belong to the same individual or homonyms is left to the user.
                 Likewise, all persons with a single name like "Theodoros" are grouped together.</p>

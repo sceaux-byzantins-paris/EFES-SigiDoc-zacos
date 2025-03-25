@@ -46,7 +46,7 @@
             <a href="{kiln:url-for-match('local-guidelines', ($language, ()), 0)}" class="landing-panel">
             <img class="panel-icon" src="/assets/google-icons/auto_stories_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
             <h3> Guidelines </h3>
-            <p>More informations on how to encode</p>
+            <p>More information on how to search</p>
             </a>
             <a href="{kiln:url-for-match('local-team', ($language, ()), 0)}" class="landing-panel">
             <img class="panel-icon" src="/assets/google-icons/groups_24dp_45658B_FILL0_wght400_GRAD0_opsz24.svg"/>
@@ -67,7 +67,7 @@
                articles or platforms. For the first time, this Portal offers a unified entry point,
                allowing these dispersed holdings to be comprehensively searched—and unlocking new avenues for research.</p>
 
-              <p>The lack of publicly accessible information on seals has long been a major gap in the field.
+              <p>The lack of publicly accessible information on seals has long been a major gap in Byzantine sigillography.
                This initiative responds to that need by offering a user-friendly and pragmatic platform for sharing data,
                 with minimal requirements for participation.</p>
 
@@ -88,7 +88,7 @@
                 <h4>License</h4>
                   <!-- <p>The full bibliographical description of this publication: <strong>[to be changed by each project]</strong>,
                     available at: <strong>[to be changed by each project]</strong>.</p> <p>This should be abbreviated to <strong>[to be changed by each project]</strong>.</p> -->
-                    <p>We recognize the importance of scholarly cataloguing in academic careers. The Portal does not claim authorship of individual records.
+                    <p>We recognise the importance of scholarly cataloguing in academic careers. The Portal does not claim authorship of individual records.
                      Instead, it ensures that contributors retain full ownership and visibility over their data and that content responsibility lies with the data providers.</p>
                   <p>GitHub repository available <a href="https://github.com/SigiDoc"
                     target="_blank">https://github.com/SigiDoc</a>.</p>
