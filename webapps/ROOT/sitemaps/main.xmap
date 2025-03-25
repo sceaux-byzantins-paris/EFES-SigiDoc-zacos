@@ -168,7 +168,7 @@
       </map:match>
       
       <!-- Guidelines. -->
-      <map:match id="local-collections" pattern="*/guidelines.html">
+      <map:match id="local-guidelines" pattern="*/guidelines.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://_internal/menu/main.xml?url={1}/guidelines.html" />
         </map:aggregate>
