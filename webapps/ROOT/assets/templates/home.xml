@@ -73,7 +73,7 @@
             </div>
           </div> 
             <div class="panel radius">
-              <!-- <div class="landing-img" id="site-title"></div> -->
+              <div class="landing-img" id="site-title"></div>
               <p>Le corpus sigillographique en cours de publication ici représente la première
                 entreprise d'édition systématique des sceaux de la Collection George Zacos de la
                 Bibliothèque nationale de France. Les travaux ont débuté dans le cadre du projet
@@ -182,7 +182,7 @@
                       License</a>.</p>
                 </div>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
       </main>
