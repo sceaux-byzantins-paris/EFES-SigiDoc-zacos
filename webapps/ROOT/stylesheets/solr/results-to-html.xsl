@@ -193,13 +193,19 @@
       <div class="result-details hidden">
       <span>
       <p>
-          <xsl:value-of select="arr[@name = 'translation']/str[1]"/>
+        <xsl:value-of select="substring-after(arr[@name = 'translation']/str[contains(.,concat($language,'|'))],concat($language,'|'))"/>
+        </p>
+        
+        <p>
+          <xsl:value-of select="substring-after(arr[@name = 'translation']/str[1],'|')"/>
         </p>
         <div class="result-metadata">
+          <xsl:if test="arr[@name='origdate']">
           <p class="period">
             <b>Date: </b>
-            <xsl:value-of select="str[@name = 'origdate']"/>
+            <xsl:value-of select="arr[@name = 'origdate']/str"/>
           </p>
+          </xsl:if>
           <!-- <p>
             <b>mentions: </b>
             <xsl:value-of select="arr[@name = 'personal_names']"/>
@@ -209,13 +215,16 @@
         
         <div class="thumbcontainer">
           <div class="img-text">
-            <img class="thumbnail" src="/assets/images/snapshot1.jpg"/>
+            <xsl:if test="str[@name='imgr']">
+            <img class="thumbnail" src="{str[@name='imgr']}"/>
             <figcaption class="thumbtext">obverse</figcaption>
-            
+            </xsl:if>
           </div>
           <div class="img-text">
-            <img class="thumbnail" src="/assets/images/snapshot2.jpg"/>
+            <xsl:if test="str[@name='imgv']">
+            <img class="thumbnail" src="{str[@name='imgv']}"/>
             <figcaption class="thumbtext">reverse</figcaption>
+            </xsl:if>
           </div>
         </div>
       </div>
