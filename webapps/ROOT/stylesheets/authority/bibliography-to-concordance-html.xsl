@@ -27,7 +27,7 @@
     <xsl:variable name="bibl-id" select="str[@name='concordance_bibliography_ref']" />
     <xsl:if test="id($bibl-id)">
     <li>
-      <a href="{kiln:url-for-match('local-concordance-bibliography-item', ($language, $bibl-id), 0)}">
+      <a href="{kiln:url-for-match('local-concordance-bibliography-item', ($language,$bibl-id), 0)}">
         <xsl:apply-templates mode="short-citation" select="id($bibl-id)" />
       </a>: <xsl:apply-templates mode="full-citation" select="id($bibl-id)" />
     </li>
@@ -42,7 +42,7 @@
 
   <xsl:template match="arr[@name='concordance_bibliography_item']/str">
     <li>
-      <a href="{kiln:url-for-match('local-epidoc-display-html', ($language, .), 0)}">
+      <a href="{kiln:url-for-match('local-epidoc-display-html', ($language, concat('zacos-collection/',.)), 0)}">
         <xsl:value-of select="." />
       </a>
     </li>
